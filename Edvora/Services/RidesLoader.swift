@@ -13,12 +13,9 @@ final class RidesLoader: ObservableObject {
     var nearestRides: [Ride]?
     var upcomingRidesCount: Int?
     var pastRidesCount: Int?
-    var cityDropDownOptions: [DropDownOption]?
     var stateDropDownOptions: [DropDownOption]?
     var citiesInStates: [String: [DropDownOption]] = [:]
     var uniqueStates: [String] = []
-    var getCities: ((String) -> Void)?
-//    var uniqueCities: [String]?
     
     var allRides = [Ride]()
     
@@ -38,10 +35,6 @@ final class RidesLoader: ObservableObject {
         
     }
     
-//    func getCities(from state: String) -> [DropDownOption] {
-//        return citiesInStates[state] ?? []
-//    }
-    
     func setRides(rides: [Ride], ref: Int) {
         allRides = rides
         upcomingRidesCount = allRides.filter { ride in
@@ -51,20 +44,9 @@ final class RidesLoader: ObservableObject {
             return ride.date.toDate() < Date()
         }.count
         uniqueStates = Array(Set(allRides.map {$0.state}))
-//        for ride in rides {
-//            if citiesInStates[ride.state] == nil {
-//                citiesInStates[ride.state] = [DropDownOption(key: UUID().uuidString, value: ride.city)]
-//            } else {
-//                if(!citiesInStates[ride.state]!.contains { $0.value == ride.city }) {
-//                    citiesInStates[ride.state]!.append(DropDownOption(key: UUID().uuidString, value: ride.city))
-//                }
-//            }
-//        }
-        
         stateDropDownOptions = uniqueStates.map { state in
             DropDownOption(key: UUID().uuidString, value: state)
         }
-//        cityDropDownOptions = cities.map { DropDownOption(key: UUID().uuidString, value: $0) }
         
         nearestRides(to: ref)
     }
@@ -83,11 +65,9 @@ final class RidesLoader: ObservableObject {
                 distanceRide[ride.id] = closest
                 dictionaryRides[ride.id] = ride
             }
-    //        print(distanceRide)
             let sortedRides = distanceRide.sorted { ride1, ride2 in
                 return ride1.value < ride2.value
             }
-    //        print(sortedRides)
             
             nearestRides = [Ride]()
             for sortedRide in sortedRides {
@@ -112,8 +92,6 @@ final class RidesLoader: ObservableObject {
     }
     
     func sortRidesBy(state: String, citiesLoader: CitiesLoader) {
-//        getCities(from: state)
-//        getCities?(from: state)
         citiesLoader.updateCities(with: state)
         rides = allRides.filter { ride in
             return ride.state == state

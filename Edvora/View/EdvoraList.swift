@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct EdvoraList: View {
-    @State private var bottomSheetShown = false
     @ObservedObject var ridesLoader: RidesLoader
+    @State private var bottomSheetShown = false
     @State private var selectedSection: SelectedSection
     @State private var selectedRide: Ride?
     @State private var popped: Bool?
@@ -25,6 +25,7 @@ struct EdvoraList: View {
         ridesLoader = RidesLoader(networkService: networkService, ref: ref)
         selectedSection = .nearest
     }
+    
     var body: some View {
         GeometryReader { geometry in
         ZStack {
@@ -62,23 +63,21 @@ struct EdvoraList: View {
                         }
                     }
                 }.padding()
-//                ZStack {
-                    List(ridesLoader.rides) { ride in
-                        EdvoraRide(ride: ride, networkService: networkService)
-                            .zIndex(1)
-                            .onTapGesture {
-                                if popped ?? false == false {
-                                    selectedRide = ride
-                                    popped = true
-                                    bottomSheetShown = true
-                                } else {
-                                    popped = false
-                                    bottomSheetShown = false
-                                }
+                
+                List(ridesLoader.rides) { ride in
+                    EdvoraRide(ride: ride, networkService: networkService)
+                        .zIndex(1)
+                        .onTapGesture {
+                            if popped ?? false == false {
+                                selectedRide = ride
+                                popped = true
+                                bottomSheetShown = true
+                            } else {
+                                popped = false
+                                bottomSheetShown = false
                             }
                         }
-                    
-//                    }
+                    }
                 }
             }
             DetailsView(isOpen: self.$bottomSheetShown, maxHeight: geometry.size.height * 0.7, ride: selectedRide, networkService: networkService)

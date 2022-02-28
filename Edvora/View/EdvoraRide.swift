@@ -10,6 +10,7 @@ import SwiftUI
 struct EdvoraRide: View {
     var ride: Ride
     var networkService: NetworkService
+    
     var body: some View {
         ZStack {
             Color.white
@@ -30,7 +31,6 @@ struct EdvoraRide: View {
                 .background("200 200 200".toRgb())
             }
         }
-//        .cornerRadius(10)
     }
 }
 

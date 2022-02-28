@@ -23,18 +23,16 @@ extension String {
         guard let day = Int(date[1]) else { return "" }
         guard let month = Int(date[0]) else { return "" }
         var result = ""
-//        if day % 10 == 1 || day % 10 == 2 || day % 10 == 3 {
-            switch day % 10 {
-            case 1:
-                result = String(day) + "st"
-            case 2:
-                result = String(day) + "nd"
-            case 3:
-                result = String(day) + "rd"
-            default:
-                result = String(day) + "th"
-            }
-//        }
+        switch day % 10 {
+        case 1:
+            result = String(day) + "st"
+        case 2:
+            result = String(day) + "nd"
+        case 3:
+            result = String(day) + "rd"
+        default:
+            result = String(day) + "th"
+        }
         let months = [1: "Jan", 2: "Feb", 3: "Mar", 4: "Apr", 5: "May", 6: "Jun", 7: "Jul", 8: "Aug", 9: "Sep", 10: "Oct", 11: "Nov", 12: "Dec"]
         guard let m = months[month] else { return "" }
         result += " " + m

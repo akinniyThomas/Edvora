@@ -8,7 +8,6 @@
 import Foundation
 
 final class UserLoader: ObservableObject {
-    
     @Published var user: User?
     private let userUrl = "https://assessment.api.vweb.app/user"
     

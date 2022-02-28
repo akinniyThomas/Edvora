@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct RootContentView: View {
-    
-    var networkService = NetworkService()
     @ObservedObject var userLoader: UserLoader
+    var networkService = NetworkService()
+    
     init() {
         userLoader = UserLoader(networkService: networkService)
     }

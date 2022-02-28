@@ -10,6 +10,7 @@ import SwiftUI
 struct DropDownSelector: View {
     @State private var shouldShowDropDown = false
     @State private var selectedOption: DropDownOption? = nil
+    
     var placeholder: String
     var options: [DropDownOption]
     var onOptionSelected: ((DropDownOption) -> Void)?

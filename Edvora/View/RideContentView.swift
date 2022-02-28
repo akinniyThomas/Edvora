@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RideContentView: View {
     var ride: Ride
+    
     var body: some View {
         VStack {
             RideRowContentView(leftTitle: "Ride ID", rightTitle: "Origin Station", leftContent: String(ride.id), rightContent: String(ride.origin_station_code))

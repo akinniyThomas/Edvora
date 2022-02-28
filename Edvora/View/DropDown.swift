@@ -26,9 +26,3 @@ struct DropDown: View {
         .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.gray, lineWidth: 1))
     }
 }
-
-//struct DropDown_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DropDown()
-//    }
-//}

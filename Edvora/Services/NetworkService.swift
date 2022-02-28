@@ -33,7 +33,6 @@ final class NetworkService: ObservableObject {
         }.resume()
     }
     
-    
     func loadImage(from url: String, imageCompletion: ((Data) -> Void)?) {
         loadData(from: url, successCompletion: { [weak self] str in
             self?.output = str

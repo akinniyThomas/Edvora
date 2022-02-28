@@ -55,9 +55,3 @@ struct DetailsView: View {
         }
     }
 }
-
-//struct DetailsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DetailsView(ride: Ride(id: 113, origin_station_code: 9, station_path: [32, 44, 50, 69, 78, 81], destination_station_code: 99, date: "02/14/2022 2:42 PM", map_url: "https://picsum.photos/200", state: "Odisha", city: "Sambalpur"), networkService: NetworkService())
-//    }
-//}

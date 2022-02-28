@@ -11,6 +11,7 @@ struct ImageText: View {
     var date: String
     var isHashTag: Bool
     var id: String
+    
     var body: some View {
         HStack {
             Image(uiImage: UIImage(named: isHashTag ? "hashtag" : "calendar") ?? UIImage())

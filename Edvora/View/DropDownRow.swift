@@ -29,9 +29,3 @@ struct DropDownRow: View {
         .padding(.vertical, 5)
     }
 }
-
-//struct DropDownRow_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DropDownRow()
-//    }
-//}

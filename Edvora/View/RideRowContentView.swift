@@ -12,6 +12,7 @@ struct RideRowContentView: View {
     var rightTitle: String?
     var leftContent: String
     var rightContent: String?
+    
     var body: some View {
         HStack {
             VStack {

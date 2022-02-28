@@ -18,7 +18,6 @@ final class CitiesLoader: ObservableObject {
     
     func updateCities(with state: String) {
         let allRides = Array(ridesLoader.allRides)
-//        let uniqueStates = Array(Set(allRides.map {$0.state}))
         var citiesInStates = [String: [DropDownOption]]()
         for ride in allRides {
             if citiesInStates[ride.state] == nil {
@@ -30,7 +29,6 @@ final class CitiesLoader: ObservableObject {
             }
         }
         cities = citiesInStates[state]!
-        print(cities)
     }
     
     

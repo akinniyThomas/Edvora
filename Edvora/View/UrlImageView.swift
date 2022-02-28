@@ -16,9 +16,6 @@ struct UrlImageView: View {
     var body: some View {
         Image(uiImage: imageToLoad.image ?? UIImage())
             .resizable()
-//            .scaledToFit()
-//            .frame(height: 173)
-//            .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
     }
 }
 
