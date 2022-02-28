@@ -11,6 +11,29 @@
 		B45C37FB27CC2256009995B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C37FA27CC2256009995B7 /* ContentView.swift */; };
 		B45C37FD27CC2259009995B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C37FC27CC2259009995B7 /* Assets.xcassets */; };
 		B45C380027CC2259009995B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C37FF27CC2259009995B7 /* Preview Assets.xcassets */; };
+		B45C380827CC23C0009995B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C380727CC23C0009995B7 /* User.swift */; };
+		B45C380A27CC241B009995B7 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C380927CC241B009995B7 /* Ride.swift */; };
+		B45C380D27CC2654009995B7 /* EdvoraList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C380C27CC2654009995B7 /* EdvoraList.swift */; };
+		B45C380F27CC2685009995B7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C380E27CC2685009995B7 /* NetworkService.swift */; };
+		B45C381327CC31CC009995B7 /* EdvoraRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381227CC31CC009995B7 /* EdvoraRide.swift */; };
+		B45C381627CC3A3D009995B7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381527CC3A3D009995B7 /* String+Extension.swift */; };
+		B45C381827CC40A9009995B7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381727CC40A9009995B7 /* ImageLoader.swift */; };
+		B45C381A27CC4268009995B7 /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381927CC4268009995B7 /* UrlImageView.swift */; };
+		B45C381C27CC49DB009995B7 /* ImageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381B27CC49DB009995B7 /* ImageText.swift */; };
+		B45C381E27CC5B8A009995B7 /* UserLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381D27CC5B8A009995B7 /* UserLoader.swift */; };
+		B45C382027CC5C4E009995B7 /* RidesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C381F27CC5C4E009995B7 /* RidesLoader.swift */; };
+		B45C382227CC677D009995B7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382127CC677D009995B7 /* Date+Extension.swift */; };
+		B45C382527CC6BA2009995B7 /* SelectedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382427CC6BA1009995B7 /* SelectedSection.swift */; };
+		B45C382727CC6F4B009995B7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382627CC6F4B009995B7 /* DetailsView.swift */; };
+		B45C382927CC70B6009995B7 /* RideContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382827CC70B6009995B7 /* RideContentView.swift */; };
+		B45C382B27CC714F009995B7 /* RideRowContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382A27CC714F009995B7 /* RideRowContentView.swift */; };
+		B45C382D27CC894B009995B7 /* RootContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382C27CC894A009995B7 /* RootContentView.swift */; };
+		B45C382F27CC8A6A009995B7 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C382E27CC8A6A009995B7 /* FilterView.swift */; };
+		B45C383227CC957C009995B7 /* DropDownSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C383127CC957C009995B7 /* DropDownSelector.swift */; };
+		B45C383427CC9592009995B7 /* DropDownOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C383327CC9592009995B7 /* DropDownOption.swift */; };
+		B45C383627CC993A009995B7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C383527CC993A009995B7 /* DropDown.swift */; };
+		B45C383827CC9A01009995B7 /* DropDownRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C383727CC9A01009995B7 /* DropDownRow.swift */; };
+		B45C383A27CCA663009995B7 /* CitiesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C383927CCA663009995B7 /* CitiesLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +42,29 @@
 		B45C37FA27CC2256009995B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B45C37FC27CC2259009995B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45C37FF27CC2259009995B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B45C380727CC23C0009995B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B45C380927CC241B009995B7 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		B45C380C27CC2654009995B7 /* EdvoraList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraList.swift; sourceTree = "<group>"; };
+		B45C380E27CC2685009995B7 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B45C381227CC31CC009995B7 /* EdvoraRide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraRide.swift; sourceTree = "<group>"; };
+		B45C381527CC3A3D009995B7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B45C381727CC40A9009995B7 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B45C381927CC4268009995B7 /* UrlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		B45C381B27CC49DB009995B7 /* ImageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageText.swift; sourceTree = "<group>"; };
+		B45C381D27CC5B8A009995B7 /* UserLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoader.swift; sourceTree = "<group>"; };
+		B45C381F27CC5C4E009995B7 /* RidesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesLoader.swift; sourceTree = "<group>"; };
+		B45C382127CC677D009995B7 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		B45C382427CC6BA1009995B7 /* SelectedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSection.swift; sourceTree = "<group>"; };
+		B45C382627CC6F4B009995B7 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		B45C382827CC70B6009995B7 /* RideContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideContentView.swift; sourceTree = "<group>"; };
+		B45C382A27CC714F009995B7 /* RideRowContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRowContentView.swift; sourceTree = "<group>"; };
+		B45C382C27CC894A009995B7 /* RootContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContentView.swift; sourceTree = "<group>"; };
+		B45C382E27CC8A6A009995B7 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		B45C383127CC957C009995B7 /* DropDownSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownSelector.swift; sourceTree = "<group>"; };
+		B45C383327CC9592009995B7 /* DropDownOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownOption.swift; sourceTree = "<group>"; };
+		B45C383527CC993A009995B7 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		B45C383727CC9A01009995B7 /* DropDownRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownRow.swift; sourceTree = "<group>"; };
+		B45C383927CCA663009995B7 /* CitiesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +97,11 @@
 		B45C37F727CC2256009995B7 /* Edvora */ = {
 			isa = PBXGroup;
 			children = (
+				B45C383027CC9547009995B7 /* View */,
+				B45C382327CC6B8D009995B7 /* Enum */,
+				B45C381427CC3A2A009995B7 /* Extension */,
+				B45C380B27CC260F009995B7 /* Services */,
+				B45C380627CC23A9009995B7 /* Model */,
 				B45C37F827CC2256009995B7 /* EdvoraApp.swift */,
 				B45C37FA27CC2256009995B7 /* ContentView.swift */,
 				B45C37FC27CC2259009995B7 /* Assets.xcassets */,
@@ -65,6 +116,64 @@
 				B45C37FF27CC2259009995B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B45C380627CC23A9009995B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B45C380727CC23C0009995B7 /* User.swift */,
+				B45C380927CC241B009995B7 /* Ride.swift */,
+				B45C383327CC9592009995B7 /* DropDownOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B45C380B27CC260F009995B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B45C380E27CC2685009995B7 /* NetworkService.swift */,
+				B45C381727CC40A9009995B7 /* ImageLoader.swift */,
+				B45C381D27CC5B8A009995B7 /* UserLoader.swift */,
+				B45C381F27CC5C4E009995B7 /* RidesLoader.swift */,
+				B45C383927CCA663009995B7 /* CitiesLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B45C381427CC3A2A009995B7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B45C381527CC3A3D009995B7 /* String+Extension.swift */,
+				B45C382127CC677D009995B7 /* Date+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B45C382327CC6B8D009995B7 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				B45C382427CC6BA1009995B7 /* SelectedSection.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		B45C383027CC9547009995B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B45C381927CC4268009995B7 /* UrlImageView.swift */,
+				B45C381B27CC49DB009995B7 /* ImageText.swift */,
+				B45C382627CC6F4B009995B7 /* DetailsView.swift */,
+				B45C382827CC70B6009995B7 /* RideContentView.swift */,
+				B45C382A27CC714F009995B7 /* RideRowContentView.swift */,
+				B45C382C27CC894A009995B7 /* RootContentView.swift */,
+				B45C382E27CC8A6A009995B7 /* FilterView.swift */,
+				B45C380C27CC2654009995B7 /* EdvoraList.swift */,
+				B45C381227CC31CC009995B7 /* EdvoraRide.swift */,
+				B45C383127CC957C009995B7 /* DropDownSelector.swift */,
+				B45C383527CC993A009995B7 /* DropDown.swift */,
+				B45C383727CC9A01009995B7 /* DropDownRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +246,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45C381627CC3A3D009995B7 /* String+Extension.swift in Sources */,
 				B45C37FB27CC2256009995B7 /* ContentView.swift in Sources */,
+				B45C380A27CC241B009995B7 /* Ride.swift in Sources */,
+				B45C380D27CC2654009995B7 /* EdvoraList.swift in Sources */,
+				B45C381A27CC4268009995B7 /* UrlImageView.swift in Sources */,
+				B45C382B27CC714F009995B7 /* RideRowContentView.swift in Sources */,
+				B45C381327CC31CC009995B7 /* EdvoraRide.swift in Sources */,
+				B45C381C27CC49DB009995B7 /* ImageText.swift in Sources */,
+				B45C382F27CC8A6A009995B7 /* FilterView.swift in Sources */,
+				B45C383827CC9A01009995B7 /* DropDownRow.swift in Sources */,
+				B45C383427CC9592009995B7 /* DropDownOption.swift in Sources */,
+				B45C382527CC6BA2009995B7 /* SelectedSection.swift in Sources */,
+				B45C381827CC40A9009995B7 /* ImageLoader.swift in Sources */,
 				B45C37F927CC2256009995B7 /* EdvoraApp.swift in Sources */,
+				B45C382927CC70B6009995B7 /* RideContentView.swift in Sources */,
+				B45C381E27CC5B8A009995B7 /* UserLoader.swift in Sources */,
+				B45C382027CC5C4E009995B7 /* RidesLoader.swift in Sources */,
+				B45C382227CC677D009995B7 /* Date+Extension.swift in Sources */,
+				B45C382727CC6F4B009995B7 /* DetailsView.swift in Sources */,
+				B45C380F27CC2685009995B7 /* NetworkService.swift in Sources */,
+				B45C380827CC23C0009995B7 /* User.swift in Sources */,
+				B45C383227CC957C009995B7 /* DropDownSelector.swift in Sources */,
+				B45C383A27CCA663009995B7 /* CitiesLoader.swift in Sources */,
+				B45C382D27CC894B009995B7 /* RootContentView.swift in Sources */,
+				B45C383627CC993A009995B7 /* DropDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
